@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:minHeight="64dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/notification_large_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/notification_content_title"
+                style="@style/NotificationContentTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="notification_content_title" />
+
+            <TextView
+                android:id="@+id/notification_content_text"
+                style="@style/NotificationContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="notification_content_text" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/notification_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="6dp"
+            android:textColor="#ffff"
+            android:textSize="14dp"
+            android:text="BUTTON"
+            android:background="@drawable/notification_button" />
+
+    </LinearLayout>
+
+</FrameLayout>

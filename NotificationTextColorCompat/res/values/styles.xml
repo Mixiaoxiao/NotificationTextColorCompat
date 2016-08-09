@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.ColorNoLogo</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <!-- <item name="windowContentOverlay">@drawable/ab_solid_shadow_holo</item> -->
+    <style name="AppTheme.NoActionBar" parent="AppBaseTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="ActionBar.Solid.ColorNoLogo" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:displayOptions">showTitle</item>
+    </style>
+    
+    <style name="NotificationContentTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+    
+    <style name="NotificationContentText" parent="@android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textStyle">normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+
+</resources>
