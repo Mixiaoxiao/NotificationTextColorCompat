@@ -38,7 +38,7 @@ NotificationTextColorCompat.byAuto() | byText() | byId() | byAnyTextView() | byS
 |Flyme5-Android5.1|√|×|-|×|
 
 * √ : ContentTitleColor and ContentTextColor are both right
-* - : ContentTitleColor and ContentTextColor are mainly right(right | drak text)
+* - : ContentTitleColor and ContentTextColor are mainly right (light or drak color)
 * × : ContentTitleColor and ContentTextColor are both wrong
 
 * Welcome to add more device test and thanks a lot!
