@@ -1,7 +1,7 @@
 NotificationTextColorCompat
 ===============
 
-Fetch the default system notification text color (ContentTitleColor and ContentTextColor) for your custom RemoteViews
+Fetch the default system notification text color (ContentTitleColor and ContentTextColor) for your custom RemoteViews.
 
 获取系统默认的通知文字颜色(标题和内容文字颜色)，适配自定义通知的RemoteViews中的文字。已测试兼容各种国产ROM。
 
