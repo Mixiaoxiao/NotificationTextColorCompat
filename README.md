@@ -18,7 +18,7 @@ Usage 用法
 -----
 
 ```java
- NotificationTextColorCompat.byAuto(context).setContentTitleColor(,).setContentTextColor(,);
+ NotificationTextColorCompat.byAuto(context).setContentTitleColor(remoteViews, contentTitleIds).setContentTextColor(remoteViews, contentTextIds);
 ```
 
 Device Test 机型测试
